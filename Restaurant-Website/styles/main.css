@@ -9,19 +9,27 @@ main {
   width: 100%;
   height: 25px;
 }
-.title {
+.title, .title-menu {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 35px;
   margin-bottom: 2rem;
+  font-family: 'Butterfly Kids';
+}
+
+.title-menu {
+  margin-bottom: 0;
+  margin-top: 3rem;
 }
 
 .foods-container {
-  margin-top: 2%;
-  margin-right: 2.5rem;
+  margin-top: 3%;
+  padding-bottom: 3rem;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   row-gap: 2rem;
   column-gap: 1.5rem;
+  border-bottom: 2px solid black;
 }
 
 @media (max-width: 1056px) {
@@ -49,7 +57,7 @@ main {
   border: 3px solid black;
   border-radius: 15px;
   width: 200px;
-  height: 250px;
+  height: 270px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   background-color: rgb(78, 78, 78, 0.45)
 }
@@ -69,11 +77,10 @@ main {
 .food-info {
   display: flex;
   justify-content: space-evenly;
-  font-size: 20px;
-}
-.food-name {
+  font-size: 25px;
   font-weight: bold;
 }
+
 .food-cost {
   color: darkslategrey;
 }
@@ -83,19 +90,19 @@ main {
   justify-content: center;
 }
 .order-now-button {
-  width: 8em;
-  height: 2rem;
+  font-family: 'Butterfly Kids';
+  font-size: 25px;
+  font-weight: bold;
+  width: 5em;
+  height: 1.5em;
   border: none;
   border-radius: 20px;
-  background: linear-gradient(
-  to right,
-  rgb(221, 221, 212) 0%,
-    rgb(153, 131, 90) 50%,
-    rgb(94, 87, 87) 100%
-  );
+  background-color: rgba(78, 78, 78, 0.8);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 1.5);
   cursor: pointer;
+  transition: all 1s;
 }
-
 .order-now-button:hover {
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  height: 1em;
+  margin-top: 15px;
 }

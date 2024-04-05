@@ -7,9 +7,13 @@
   <link rel="stylesheet" href="/Restaurant-Website/styles/animation.css">
   <link rel="stylesheet" href="/Restaurant-Website/styles/header.css">
   <link rel="stylesheet" href="/Restaurant-Website/styles/main.css">
+  <link rel="stylesheet" href="/Restaurant-Website/styles/footer.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
 <body>
   <header>
@@ -34,7 +38,7 @@
       <div class="navigation slideToDown">
         <a href="#welcome">Home</a>
         <a href="#about">About us</a>
-        <a href="#recipies">Recipies</a>
+        <a href="#menu">Menu</a>
         <a href="#food">Foods</a>
       </div>
     </div>
@@ -54,12 +58,88 @@
     </div>
   </header>
   <main>
-    <div class="page-title">
-      <p class="title">Popular Foods</p>
+    <div>
+      <div class="page-title">
+        <p class="title">Popular Foods</p>
+      </div>
+      <div class="foods-container js-foods-container">
+      </div>
     </div>
-    <div class="foods-container js-foods-container">
+    <div>
+      <div class="page-title">
+        <p class="title-menu">Pizza</p>
+      </div>
+      <div class="foods-container js-pizza-container">
+      </div>
+    </div>
+    <div>
+      <div class="page-title">
+        <p class="title-menu">Pasta, Crepes, Snacks</p>
+      </div>
+      <div class="foods-container js-another-food-container">
+      </div>
+    </div>
+    <div>
+      <div class="page-title">
+        <p class="title-menu">Drinks</p>
+      </div>
+      <div class="foods-container js-drinks-container">
+      </div>
     </div>
   </main>
+  <footer>
+    <div class="info-container">
+      <p class="info-title">Everything is close to you</p>
+      <div class="informations">
+        <div class="info-box">
+          <a href="#"><img src="/Restaurant-Website/images/pin.png"class="info-icon"></a>
+          <p class="description">Find us</p>
+          <a href="#">Adress</a>
+        </div>
+        <div class="info-box">
+          <a href="mailto:"><img src="/Restaurant-Website/images/email.png"class="info-icon"></a>
+          <p class="description">Write us</p>
+          <a href="mailto:">email@email.com</a>
+        </div>
+        <div class="info-box">
+          <a href="tel:+"><img src="/Restaurant-Website/images/phone.png" class="info-icon"></a>
+          <p class="description">Call us</p>
+          <a href="tel:+">+123456789</a>
+        </div>
+      </div>
+    </div>
+    <div class="contact-container">
+      <div class="icon-contact-container">
+        <img src="/Restaurant-Website/images/message.png">
+        <p>Contact us</p>
+      </div>
+      <div class="input-container">
+        <div class="top-inputs">
+          <div>
+            <input class="top-input" type="text" placeholder="Your name">
+          </div>
+          <div>
+            <input class="top-input" type="text" placeholder="Your email">
+          </div>
+          <div>
+            <input class="top-input" type="text" placeholder="Your phone">
+          </div>
+        </div>
+        <div class="middle-inputs">
+          <input class="middle-input" type="text" placeholder="Topic">
+        </div>
+        <div class="bottom-inputs">
+          <!-- <input class="bottom-input" type="text" placeholder="Message"> -->
+          <textarea class="bottom-input" cols="30" rows="10" placeholder="Message"></textarea>
+        </div>
+      </div>
+      <div class="">
+        <button class="send-button">
+          Send
+        </button>
+      </div>
+    </div>
+  </footer>
 <script src="/Restaurant-Website/scripts/products.js"></script>
 <script src="/Restaurant-Website/scripts/data.js"></script>  
 </body>

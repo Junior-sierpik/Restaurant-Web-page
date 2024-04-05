@@ -1,4 +1,4 @@
-const products = [
+const popularProducts = [
   {
     image: "/Restaurant-Website/images/Pizza.avif",
     name: "Pizza",
@@ -21,7 +21,43 @@ const products = [
     image: "/Restaurant-Website/images/Hot-Chocolate-.jpg",
     name: "Hot chocolate",
     priceCents: 699
+  },
+];
+
+const pizzaProducts = [
+  {
+    image: "/Restaurant-Website/images/Pizza.avif",
+    name: "Margerita",
+    priceCents: 600,
   },  {
+    image: "/Restaurant-Website/images/Pizza.avif",
+    name: "Margerita",
+    priceCents: 600,
+  }, {
+    image: "/Restaurant-Website/images/Pizza.avif",
+    name: "Margerita",
+    priceCents: 600,
+  },  {
+    image: "/Restaurant-Website/images/Pizza.avif",
+    name: "Margerita",
+    priceCents: 600,
+  },  {
+    image: "/Restaurant-Website/images/Pizza.avif",
+    name: "Margerita",
+    priceCents: 600,
+  }
+];
+
+const regularFoods = [
+  {
+    image: "/Restaurant-Website/images/Pizza.avif",
+    name: "Margerita",
+    priceCents: 600,
+  },
+];
+
+const drinks = [
+  {
     image: "/Restaurant-Website/images/Coffe.jpg",
     name: "Coffe",
     priceCents: 459
@@ -34,4 +70,4 @@ const products = [
     name: "Hot tea",
     priceCents: 229
   },
-];
+]

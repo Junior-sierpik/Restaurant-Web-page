@@ -1,0 +1,150 @@
+footer {
+  /* background-image: url(/Restaurant-Website/images/oldPaper.jpg); */
+  /* background-color:#000000 ; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.info-title {
+  background-color: #d8d1b4;
+  padding: 5px 25px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.9);
+}
+
+.informations {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2.5rem;
+}
+.info-box img {
+  width: 50px;
+  margin-top: 10px;
+}
+.info-box a {
+  text-decoration: none;
+}
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d8d1b4;
+  width: 300px;
+  height: 200px;
+  line-height: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.9);
+}
+
+.contact-container {
+  background-color: #d8d1b4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  width: 75%;
+  height: 75vh;
+  line-height: 20px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9);
+}
+
+.icon-contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  line-height: 0;
+  font-size: 35px;
+}
+.icon-contact-container img {
+  width: 90px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 40px;
+  width: 100%;
+  gap: 40px;
+}
+.top-inputs {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.top-input,
+.middle-input,
+.bottom-input {
+  font-family: 'Butterfly Kids';
+  font-weight: bold;
+  width: 19vw;
+  height: 3vw;
+  font-size: 20px;
+  padding-left: 20px;
+  color: black;
+  background-color: #cac6b3;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9);
+}
+.top-input:focus,
+.middle-input:focus,
+.bottom-input:focus {
+  outline: none;
+}
+.middle-input {
+  width: 65.8vw;
+}
+.bottom-input {
+  width: 65vw;
+  height: 10vw;
+  padding-top: 18px;
+  padding-right: 20px;
+}
+.top-input::placeholder,
+.middle-input::placeholder,
+.bottom-input::placeholder {
+  font-size: 28px;
+}
+.bottom-input::placeholder{
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+
+.send-button {
+  font-family: 'Butterfly Kids';
+  font-weight: bold;
+  margin-top: 1em;
+  width: 12vw;
+  height: 3vw;
+  font-size: 25px;
+  color: black;
+  background-color: #cac6b3;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.send-button:hover {
+  box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.9);
+}
+
+.send-button:active {
+  width: 10.5vw;
+  height: 2.5vw;
+  box-shadow: none;
+}

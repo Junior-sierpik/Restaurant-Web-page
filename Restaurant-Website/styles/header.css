@@ -1,9 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'PT-Sans', Arial, Helvetica, sans-serif;
-  height: 2000px;
+  font-family: 'Butterfly Kids';
+  font-weight: bold;
   background-image: url(/Restaurant-Website/images/background-wood.jpg);
+  /*background-color: #978989;*/
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -18,8 +22,6 @@ header {
   display: flex;
   /* background-color: #cfb53b; */
   background-image: url(/Restaurant-Website/images/header-background.jpg);
-  object-fit: cover;
-  object-position: center;
   height: 120px;
   justify-content: space-between;
   align-items: center;
@@ -57,6 +59,7 @@ header {
 .navigation {
   margin-right: 15px;
   margin-top: -40px;
+  font-size: 25px;
 }
 .navigation a {
   margin-inline: 8px;
@@ -89,15 +92,15 @@ header {
 .yt-box,
 .ig-box,
 .like-box {
-  line-height: 10px;
+  line-height: 5px;
 }
 .amount {
+  margin-left: 2.5rem;
   font-size: 20px;
   font-weight: bold;
   color: darkslategrey;
 }
 .media-info {
-  font-size: 15px;
+  font-size: 25px;
   color: grey;
-  margin-top: -11px;
 }
