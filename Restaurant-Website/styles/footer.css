@@ -104,14 +104,19 @@ footer {
 .bottom-input:focus {
   outline: none;
 }
+.top-input {
+  font-size: 28px;
+}
 .middle-input {
   width: 65.8vw;
+  font-size: 28px;
 }
 .bottom-input {
   width: 65vw;
   height: 10vw;
   padding-top: 18px;
   padding-right: 20px;
+  font-size: 28px;
 }
 .top-input::placeholder,
 .middle-input::placeholder,
