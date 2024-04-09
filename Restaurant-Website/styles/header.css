@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: 'Butterfly Kids';
   font-weight: bold;
-  background-image: url(/Restaurant-Website/images/background-wood.jpg);
+  background-image: url('/images/background-wood.jpg');
   /*background-color: #978989;*/
   position: relative;
   display: flex;
@@ -21,7 +21,7 @@ header {
   margin-top: 0;
   display: flex;
   /* background-color: #cfb53b; */
-  background-image: url(/Restaurant-Website/images/header-background.jpg);
+  background-image: url('/images/header-background.jpg');
   height: 120px;
   justify-content: space-between;
   align-items: center;
